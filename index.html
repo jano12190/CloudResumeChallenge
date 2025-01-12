@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Jake Nord's CV</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Montserrat", sans-serif
+    }
+
+    .w3-row-padding img {
+      margin-bottom: 12px
+    }
+
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+      width: 120px;
+      background: #222;
+    }
+
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+      margin-left: 120px
+    }
+
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+      #main {
+        margin-left: 0
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      color: white;
+    }
+
+    .container1 {
+      display: grid;
+      grid-template-columns: auto;
+      padding: 10px;
+    }
+
+    .container1>div {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .container2 {
+      display: grid;
+      grid-template-columns: auto auto;
+      padding: 10px;
+      margin-left: 16.5%;
+      margin-right: 16.5%
+    }
+
+    .container2>div {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .container3 {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: auto auto auto;
+      padding: 10px;
+    }
+
+    .container3>div {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+</style>
+
+</head>
+
+<body class="w3-black">
+
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+
+    <!-- Avatar image in top left corner -->
+    <img src="Images\Portrait.jpg" style="width:100%">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <i class="fa fa-home w3-xxlarge"></i>
+      <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-user w3-xxlarge"></i>
+      <p>ABOUT</p>
+    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-graduation-cap w3-xxlarge"></i>
+      <p>EDUCATION</p>
+    </a>
+    <a href="#certs" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-book w3-xxlarge"></i>
+      <p>CERTS</p>
+    </a>
+    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-eye w3-xxlarge"></i>
+      <p>PROJECTS</p>
+    </a>
+    <a href="https://github.com/jano12190" target="_blank"
+      class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-github w3-xxlarge"></i>
+      <p>GITHUB</p>
+    </a>
+  </nav>
+
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+      <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+      <a href="#certs" class="w3-bar-item w3-button" style="width:25% !important">CERTS</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+      <div class="w3-container w3-center w3-animate-opacity">
+        <h1 class="w3-jumbo"><span class="w3-hide-small">Hello, I'm</span> Jake Nord.</h1>
+        <p>School Counselor Turned Prospective Cloud Engineer.</p>
+        <img src="Images\Portrait.jpg" alt="self portrait" class="w3-image"
+          width="400" height="600">
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <h2 class="w3-text-light-grey">About Me</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <p>I began my career journey as a school counselor. One day I had an epiphany that I needed to make a career
+        change.
+        Fast forward to now. I am taking the necessary steps to become a cloud engineer by obtaining a degree in Cloud
+        Computing
+        from Western Governors University, and obtaining revelant certifications and the necessary skills to become
+        successful.
+      </p>
+
+      <!-- Education Section -->
+      <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+        <h2 class="w3-text-light-grey">Education</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <div class="w3-section">
+          <div class="container3">
+            <div>
+              <img src="Images\College Icons\WGU.png" alt="" width="125px"
+                height="125px">
+              <P>Western Governors University<br>
+                B.S. in Cloud Computing<br>
+                Expected April 2025
+              </P>
+            </div>
+            <div><img src="Images\College Icons\USU.jpeg" alt="" width="125px"
+                height="125px">
+              <p>Utah State University<br>
+                M.Ed. in School Counseling<br>
+                Graduated April 2018
+              </p>
+            </div>
+            <div>
+              <img src="Images\College Icons\WSU.png" alt="" width="125px"
+                height="125px">
+              <P>Weber State University<br>
+                B.S. in Psychology<br>
+                Graduated April 2014
+              </P>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certs Section -->
+
+        <div class="w3-padding-64 w3-content w3-text-grey" id="certs">
+          <h2 class="w3-text-light-grey">Certifications</h2>
+          <hr style="width:200px" class="w3-opacity">
+          <div class="container3">
+            <div><img src="Images\Cert Icons\A.png" alt="" width="125px"
+                height="125px"></div>
+            <div><img src="Images\Cert Icons\Network.png" alt="" width="125px"
+                height="125px">
+            </div>
+            <div><img src="Images\Cert Icons\Security.png" alt="" width="125px"
+                height="125px">
+            </div>
+            <div><img src="Images\Cert Icons\Project.png" alt="" width="125px"
+                height="125px">
+            </div>
+            <div><img src="Images\Cert Icons\Cloud.png" alt="" width="125px"
+                height="125px">
+            </div>
+            <div><img src="Images\Cert Icons\Cloud Practitioner.png" alt=""
+                width="125px" height="125px"></div>
+            <div><img src="Images\Cert Icons\Azure Fundamental.png" alt=""
+                width="125px" height="125px"></div>
+            <div><img src="Images\Cert Icons\LinuxEssentials-IconSize.png" alt=""
+                width="125px" height="125px"></div>
+            <div><img src="Images\Cert Icons\ITIL.png" alt="" width="125px"
+                height="125px">
+            </div>
+          </div>
+
+          <!-- Projects Section -->
+          <div class="w3-padding-64 w3-content" id="photos">
+            <h2 class="w3-text-light-grey">Projects</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <h3 style="text-align: center;">AWS Cloud Resume Challenge</h3>
+            <div>
+              <p>The purpose of this project is to showcase the following skills: frontend development, backend
+                development, serverless architecture, and
+                continous integration/continuous development (CI/CD).</p><br>
+            </div>
+
+            <h4>Front-end Development</h4>
+            <div class="container3">
+              <div>
+                <img src="Images\AWS Icons\Simple Storage Service.png" alt=""
+                  width="125px" height="125px">
+                <p>S3<br>
+              </div>
+              <div>
+                <img src="Images\AWS Icons\CloudFront.png" alt="" width="125px"
+                  height="125px">
+                <p>CloudFront<br></p>
+              </div>
+              <div>
+                <img src="Images\AWS Icons\Route 53.png" alt="" width="125px"
+                  height="125px">
+                <p>Route 53<br></p>
+              </div>
+            </div>
+            <div>
+              <p>
+                S3 was used to host this site as a static website. I developed the front end of the using HTML, CSS,
+                and JavaScript. The files were then uploaded to an AWS S3 bucket.
+                I configured a
+                CloudFront distribution, selecting the S3 bucket as the Origin. To secure the site, I enabled HTTPS and
+                configured
+                a custom SSL certificate, which I requested through Certificate Manager, in the Distribution settings. I
+                registered
+                the domain name for the site via the AWS console, and used Route 53 for DNS management, directing the
+                domain to the
+                CloudFront Distribution.
+              </p><br>
+            </div>
+
+            <h4>Back-end Development</h4>
+            <div class="container3">
+              <div>
+                <img src="Images\AWS Icons\API Gateway.png" alt="" width="125px"
+                  height="125px">
+                <p>API Gateway<br>
+              </div>
+              <div>
+                <img src="Images\AWS Icons\Lambda.png" alt="" width="125px"
+                  height="125px">
+                <p>Lambda<br></p>
+              </div>
+              <div>
+                <img src="Images\AWS Icons\DynamoDB.png" alt="" width="125px"
+                  height="125px">
+                <p>DynamoDB<br></p>
+              </div>
+            </div>
+            <div>
+              <p>Several steps were required to create the site's back end, which displays the number of times the
+                website has
+                been viewed. This figure is displayed below. First, I created a DynamoDB table. I created an item with
+                an Attribute Name called "views"
+                and set the value to 0. Next, I configured a Lambda Function written in Python. The function references
+                the table and increases the value of the "views" Attribute by 1 each time the site is viewed. Then, I
+                created an API Gateway and integrated the Lambda function. Finally, I wrote a script that fetches the
+                invoke URL of the API Gateway and displays the output on the webpage.
+              </p>
+              <p>Page Views:
+                <span id="views"></span>
+                <script>
+                  let file = "https://t4qm3gti4j.execute-api.us-west-2.amazonaws.com/crc-lambda"
+                  fetch(file)
+                    .then(x => x.text())
+                    .then(y => document.getElementById("views").innerHTML = y);
+                </script>
+              </p><br>
+            </div>
+
+            <h4>Serverless Architecture</h4>
+            <div>
+              <p>
+                Servers and EC2 instances weren't necessary for the creation or function of this project. Instead,
+                serverless services such as S3, API Gateway, Lambda, and DynamoDB were utilized.
+              </p><br>
+            </div>
+
+            <div>
+              <h4>Continous Integration/Continuous Development (CI/CD)</h4>
+              <div class="container1">
+                <div>
+                  <img src="Images\GitHub.png" alt="" width="125px" height="125px">
+                  <p>GitHub<br>
+                </div>
+              </div>
+              <div>
+                <p>
+                  A GitHub repository was utilized to update the website whenever changes were made to the site's
+                  source code.
+                </p>
+              </div>
+            </div>
+            <!-- END PAGE CONTENT -->
+</body>
+
+</html>
